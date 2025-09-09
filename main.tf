@@ -2,7 +2,7 @@
 resource "aws_db_instance" "primary" {
   identifier              = "my-primary-db"
   engine                  = "mysql"
-  engine_version          = "06-08-1992"
+  engine_version          = "06-08-1992-vikram-prod-branch"
   instance_class          = "t2.micro"
   allocated_storage       = 20
   storage_type            = "gp2"
