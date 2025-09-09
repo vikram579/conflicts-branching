@@ -4,7 +4,7 @@ resource "aws_db_instance" "primary" {
   engine                  = "mysql"
   engine_version          = "06-08-student"
   instance_class          = "db.t3.micro"
-  allocated_storage       = 20
+  allocated_storage       = 100
   storage_type            = "gp2"
   username                = "admin"
   password                = "Admin*12345" # Change in real use, or use AWS Secrets Manager
